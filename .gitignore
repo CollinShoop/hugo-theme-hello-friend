@@ -1,2 +1,7 @@
 node_modules
 public
+/.idea/hello-friend.iml
+/.idea/modules.xml
+/package-lock.json
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
