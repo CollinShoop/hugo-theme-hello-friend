@@ -1,6 +1,12 @@
 <header class="header">
   <span class="header__inner">
     {{ partial "logo.html" . }}
+
+    {{ if $.Site.Params.search.enabled }}
+      <!-- search custom -->
+      {{- partial "extended_search.html" }}
+    {{ end }}
+
     <span class="header__right">
       {{ if len $.Site.Menus }}
         {{ partial "menu.html" . }}
